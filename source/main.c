@@ -39,7 +39,7 @@ int main(int argc, char** argv) {
 	char version_major = 1;
 	char version_minor = 3;
 
-	printf("\n:--------------------------------------------------:\n");
+	printf("\n:---------------------------------------------------------:\n");
 	printf("  RiiConnect24 Mail Patcher - (C) Spotlight ");
 	#ifdef COMMITHASH
 		printf("v%u.%u-%s\n", version_major , version_minor , COMMITHASH);
@@ -47,7 +47,7 @@ int main(int argc, char** argv) {
 		printf("v%u.%u\n", version_major, version_minor);
     #endif
 		printf("  Compiled on %s at %s\n", __DATE__ , __TIME__);
-	printf(":--------------------------------------------------:\n\n");
+	printf(":---------------------------------------------------------:\n\n");
 
 	printf("Running...\n\n");
 
