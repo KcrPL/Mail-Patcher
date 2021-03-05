@@ -82,13 +82,13 @@ int main(int argc, char** argv) {
 	s64 friendCode = getFriendCode();
         s32 error = patchMail();
         if (error == RESPONSE_AREGISTERED) {
-          printf("\nIf your previous registration failed, please contact us using:\n- Discord: https://discord.gg/b4Y7jfD\n		Wait time: Short, send a Direct Message to a developer.\n- E-Mail: support@riiconnect24.net\n		Wait time: up to 24 hours, sometimes longer\n");
+          printf("\nIf your previous registration failed, please contact us using:\n- Discord: https://discord.gg/rc24\n		Wait time: Short, send a Direct Message to a developer.\n- E-Mail: support@riiconnect24.net\n		Wait time: up to 24 hours, sometimes longer\n");
 		  printf("\nIf you're repatching, contact us and provide this info:\n");
 		  printf("\nYour friend code: w");
 		  printf("%016llu\n", friendCode);
         } else if (error != 0) {
           printf("There was an error while patching.\nPlease make a screenshot of this error message and send it\nto a developer.\n");
-		  printf("\nContact using:\n- Discord: https://discord.gg/b4Y7jfD\n		Wait time: Short, send a Direct Message to a developer.\n- E-Mail: support@riiconnect24.net\n		Wait time: up to 24 hours, sometimes longer\n");
+		  printf("\nContact using:\n- Discord: https://discord.gg/rc24\n		Wait time: Short, send a Direct Message to a developer.\n- E-Mail: support@riiconnect24.net\n		Wait time: up to 24 hours, sometimes longer\n");
 		  printf("\nYour friend code: w");
 		  printf("%016llu\n", friendCode);
         } else {
